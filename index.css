@@ -1,18 +1,218 @@
+body{
+    background-color: rgb(23, 46, 76);
+    color: rgb(255, 255, 255);
+}
 .menu{
-    height:3%;
+    width : 50%;
+    height : 10%;
+    margin : 0 auto;
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
+    border : 2px solid white;
+    border-radius : 5px;
 }
 
 .menuItem{
-    height: 98%;
-    width: 3%;
-    align-items: center;
-    border: 1px solid black;
+    display : flex;
+    font-size: 30px;
+    height: 75%;
+    width: 8%;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    margin-left : 15px;
+}
+
+.content{
+    width : 50%;
+    margin : 0 auto;
+    margin-top : 10px;
+    display : flex;
+    justify-content : center;
+
+}
+
+#firstImage{
+    width : 20%;
+    height : 20%;
+}
+
+#animate{
+    width : 30%;
+    margin : 0 auto;
+    margin-top : 25px;
+    display : flex;
+    justify-content: center;
+}
+
+
+#colorButtons{
+    color :rgb(255, 255, 255);
+    width : 30%;
+    margin : 0 auto;
+    margin-top : 20px;
+    display : flex;
+    justify-content: space-evenly;
+}
+
+#animateRed{
+    background-color : red;   
+}
+
+#animateGreen{
+    background-color : green;
+}
+
+#welcomeText{
+    font-size: 40px;
+}
+
+button{
     border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 2px;
+    color: white;
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+}
+
+#firstBottom{
+    width : 15%;
+    margin : 0 auto;
+    display : flex;
+    align-items: center;
+    color: white;
+    margin-top : 300px;
+}
+
+.content1{
+    width : 50%;
+    margin : 0 auto;
+    margin-top : 10px;
+    display : flex;
+    justify-content : center;
+}
+
+#secondImage{
+    height : 15%;
+    width : 300px;
+}
+
+#widthControllers{
+    width : 20%;
+    margin : 0 auto;
+    margin-top : 20px;
+    display : flex;
+    justify-content: space-evenly;
+}
+
+#increase{
+    background-color: green;
+}
+#decrease{
+    background-color: red;
+}
+
+#desc{
+    width : 50%;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin : 0 auto;
+    margin-top : 30px;
+    text-align :justify;
+}
+
+#content2{
+    width : 50%;
+    height : 25%;
+    margin : 0 auto;
+    margin-top : 50px;
+    display : flex;
+    flex-direction: row;
+    justify-content : center;
+    
+}
+#box1{
+    width : 100%;
+    height : 100%;
+    border-bottom : 4px solid black;
+    border-right: 4px solid black;
+}
+#box2{
+    width : 100%;
+    height : 100%;
+    border-top : 4px solid black;
+    border-right: 4px solid black;
+
+}
+#box3{
+    width : 100%;
+    height : 100%;
+    border-bottom : 4px solid black;
+}
+
+#peterImg{
+    height : 100px;
+    width : 120px;
+    position : relative;
+    animation : movePeter 5s infinite;
+}
+
+
+@Keyframes movePeter{
+    0% {top : -30px; left : 350px;}
+    20% {top : -30px; left : 585px}
+    40% {top : -260px; left : 585px}
+    60% {top : -260px; left : 820px}
+    80% {top : -30px; left : 820px}
+    100% {top : -30px; left : 1055px}
+}
+
+@keyframes movePeterReverse{
+    0% {top : -30px; left : 1055px}
+    20% {top : -30px; left : 820px}
+    40% {top : -260px; left : 820px}
+    60% {top : -260px; left : 585px}
+    80% {top : -30px; left : 585px}
+    100% {top : -30px; left : 350px;}
+
+}
+
+#petButtons{
+    color :rgb(255, 255, 255);
+    width : 30%;
+    margin : 0 auto;
+    margin-top : 20px;
+    display : flex;
+    justify-content: space-evenly;
+}
+
+#peterForward{
+    background-color: green;
+    width : 100px;
+    color :rgb(226, 236, 225);
+}
+#peterReverse{
+    background-color: red;
+    width : 100px;
+    color :rgb(226, 236, 225);
+}
+
+#whiteLine{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+}
+
+#blackLine{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
 }

@@ -1,8 +1,29 @@
 <html>
     <head>
+        <link rel ="stylesheet" href ="index.css">
     </head>
     <body>
-        <p>This is the second page.</p>
-        <p><a href="index.html">Go back</a></p>
+        <div class = 'menu'>
+            <div class = 'menuItem'><a href = 'index.html' style="color:white">Home</a></div>
+            <div class ='menuItem'><a href ="index1.html" style="color:green">JS</a></div>
+            <div class ='menuItem'><a href ="index2.html" style="color:white">CSS</a></div>
+        </div>
+        <div class = "content1">
+            <img src = "jsImage.png" alt = "Javascript unofficial logo" id = "secondImage">
+        </div>
+        <div id = "widthControllers">
+            <button id = "decrease" onclick = "decreaseWidth()"> - </button>
+            <button id = "increase"> + </button>
+        </div>
+        <div id = "description">
+            <p id = "desc">JavaScript is a high-level, interpreted programming language that is widely used to add interactivity and other
+                 dynamic elements to websites. It is a client-side scripting language, meaning it runs directly in the user's web 
+                 browser, rather than on a server. This allows for a rich and dynamic user experience without the need to constantly 
+                 refresh the page.
+                One of the most common uses of JavaScript is to change the appearance of a webpage in
+                 response to user actions. For example, changing the <span id = "tx">size of the image</span>, changing the font, etc.</p>
+        </div>
+
+        <script type="text/javascript" src="change1.js"></script>
     </body>
 </html>

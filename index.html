@@ -5,10 +5,26 @@
     </head>
     <body>
         <div class = 'menu'>
-            <div class ='menuItem'><a href ="index1.html">Page2</a></div>
-            <div class ='menuItem'><a href ="index2.html">Page3</a></div>
+            <div class = 'menuItem'><a href = 'index.html' style="color:green">Home</a></div>
+            <div class ='menuItem'><a href ="index1.html" style="color:white">JS</a></div>
+            <div class ='menuItem'><a href ="index2.html" style="color:white">CSS</a></div>
         </div>
-        
+        <div class = 'content'>
+            <img src = "cat.jpeg" alt="staring cat image" id ='firstImage'>
+        </div>
+        <div id ='animate'>
+            <p id = "welcomeText">Welcome to CS355</p>
+        </div>
+       
+        <div id = "colorButtons">
+            <button id = "animateRed">Red</button>
+            <button id = "animateGreen" onclick="changeGreen()">Green</button>
+        </div>
+
+        <div id = "firstBottom">
+            <h2>This is the home page</h2>
+        </div>
+        <script type="text/javascript" src="change.js"></script>
     </body>
 </html>
 

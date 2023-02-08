@@ -161,21 +161,21 @@ button{
 
 
 @Keyframes movePeter{
-    0% {top : -30px; left : 350px;}
-    20% {top : -30px; left : 585px}
-    40% {top : -260px; left : 585px}
-    60% {top : -260px; left : 820px}
-    80% {top : -30px; left : 820px}
-    100% {top : -30px; left : 1055px}
+    0% {top : -4%; left : 25%;}
+    20% {top : -4%; left : 37.5%;}
+    40% {top : -30%; left : 37.5%;}
+    60% {top : -30%; left : 54%;}
+    80% {top : -4%; left : 54%;}
+    100% {top : -4%; left : 70%;}
 }
 
 @keyframes movePeterReverse{
-    0% {top : -30px; left : 1055px}
-    20% {top : -30px; left : 820px}
-    40% {top : -260px; left : 820px}
-    60% {top : -260px; left : 585px}
-    80% {top : -30px; left : 585px}
-    100% {top : -30px; left : 350px;}
+    0% {top : -4%; left : 70%;}
+    20% {top : -4%; left : 54%;}
+    40% {top : -30%; left : 54%;}
+    60% {top : -30%; left : 37.5%;}
+    80% {top : -4%; left : 37.5%;}
+    100% {top : -4%; left : 25%;}
 
 }
 

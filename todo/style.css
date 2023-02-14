@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(27, 27, 29);
+    color: rgb(255, 255, 255);
+}
+
+#pageTitle{
+    margin-left : 46%;
+    margin-top : 1.5%;
+    font-size: 30px;
+}
+
+.main{
+    border : 1px solid rgb(147, 135, 135);
+    border-radius: 8px;
+    margin : 0 auto;
+    margin-top : 20px;
+    height : 65%;
+    width : 35%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.newTodo{
+    margin : 0 auto;
+    margin-top : 3%;
+    height : 15%;
+    width : 35%;
+}
+
+
+#todoForm{
+    margin : 0 auto;
+    margin-top : 20px;
+    width : 90%;
+    height : 60%;
+}
+
+#typeTodo{
+    border-radius : 5px;
+    margin-left : 10%;
+    height : 60%;
+    width : 87%;
+    padding : 8px;
+    font-size: 19px;
+    background-color: rgb(207, 217, 235);
+    opacity: 1;
+
+}
+
+#addTodoButton{
+    height : 40px;
+    width : 120px;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 5px;
+    margin-top : 5%;
+    margin-left : 38%;
+}
+
+.task{
+    color :white;
+    margin : 10px;
+    margin-top : 7px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height : auto;
+    padding : auto;
+    padding-left : 10px;
+    background-color: rgb(54, 61, 66);
+    opacity: 0.8;
+    display : flex;
+    justify-content: space-between;
+    
+}
+
+.completed{
+    color : white;
+    margin-right: 2px;
+    margin-top : 2px;
+    background-color: red;
+    opacity : 0.9;
+    border-radius: 5px;
+    height : 35px;
+    font-size :15px;  
+    
+}
+
+.textDiv{
+    height : 100%;
+    max-width : 70%;
+    overflow-wrap : break-word;
+}
+
+

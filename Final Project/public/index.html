@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="frame">
+        <div class="title">Welcome to our TODO app!</div>
+        <div id="main">
+            <div id="loginScreen">
+                <div class="form">
+                    Username: <input type="text" id="loginUsername"><br> Password: <input type="password" id="loginPassword">
+                    <span></span>
+                    <button id="loginBtn">Sign In</button>
+                </div>
+                <hr>
+                <div>
+                    Don't have an account? Click <a href="#" id="registerLink">here</a> to register.
+                </div>
+            </div>
+
+            <div id="registerScreen" class="hidden">
+                <div class="form">
+                    Username: <input type="text" id="registerUsername"> Password: <input type="password" id="registerPassword"> Name: <input type="text" id="registerName"> Email: <input type="email" id="registerEmail">
+                    <span></span>
+                    <button id="registerBtn">Register</button>
+                </div>
+                <hr>
+                <div>
+                    Already have an account? Click <a href="#" id="loginLink">here</a> to log out.
+                </div>
+            </div>
+
+        </div>
+        <div id="error" class="critical"></div>
+
+        <div id="container" class="hidden">
+            <div>Click <a href="#" id="logoutLink">here</a> to log out.
+            </div>
+            <h1>To-Do List</h1>
+            <input type="text" id="taskInput" placeholder="Add task...">
+            <button id="addBtn">Add</button>
+            <ul id="taskList"></ul>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
